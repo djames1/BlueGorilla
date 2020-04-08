@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+#filter substitution
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <!-- Target Application this extension can install into,
+        with minimum and maximum supported versions. -->
+    <em:targetApplication>
+      <Description>
+        <!-- Icedove-UXP -->
+        <em:id>{3aa07e56-beb0-47a0-b0cb-c735edd25419}</em:id>
+        <em:minVersion>52.0</em:minVersion>
+        <em:maxVersion>52.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:targetApplication>
+      <Description>
+        <!-- Iceape-UXP -->
+        <em:id>{9184b6fe-4a5c-484d-8b4b-efbfccbfb514}</em:id>
+        <em:minVersion>28.0</em:minVersion>
+        <em:maxVersion>52.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:id>@XPI_EM_ID@</em:id>
+    <em:name>Iceowl-UXP</em:name>
+    <em:version>5.4.9.1</em:version>
+    <em:description>Integrated Calendaring &amp; Scheduling for your Email client</em:description>
+    <em:creator>Hyperbola Project</em:creator>
+    <em:homepageURL>https://www.hyperbola.info</em:homepageURL>
+    <em:iconURL>chrome://calendar/skin/cal-icon32.png</em:iconURL>
+    <em:optionsURL>chrome://messenger/content/preferences/preferences.xul</em:optionsURL>
+    <em:targetPlatform>@TARGET_PLATFORM@</em:targetPlatform>
+    <em:unpack>true</em:unpack>
+    <em:strictCompatibility>true</em:strictCompatibility>
+  </Description>
+</RDF>

@@ -1,0 +1,8 @@
+/*.app/***
+/*.dylib
+/certutil
+/icedove-uxp-bin
+/pk12util
+/ssltunnel
+/xpcshell
+/XUL

@@ -1,0 +1,32 @@
+dnl -*- Mode: Autoconf; tab-width: 2; indent-tabs-mode: nil; -*-
+dnl vi: set tabstop=2 shiftwidth=2 expandtab:
+dnl This Source Code Form is subject to the terms of the Mozilla Public
+dnl License, v. 2.0. If a copy of the MPL was not distributed with this
+dnl file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+dnl Things we need to carry from confvars.sh
+AC_DEFINE(MOZ_THUNDERBIRD)
+AC_SUBST(MOZ_THUNDERBIRD)
+AC_DEFINE(HYPE_ICEDOVE)
+AC_SUBST(HYPE_ICEDOVE)
+AC_SUBST(MOZ_COMPOSER)
+AC_SUBST(ICEDOVEUXP_VERSION)
+AC_DEFINE(MOZ_SEPARATE_MANIFEST_FOR_THEME_OVERRIDES)
+
+dnl Get other versions (for the calendar plugin)
+ICEAPEUXP_VERSION=`cat ${_topsrcdir}/../suite/config/version.txt`
+AC_SUBST(ICEAPEUXP_VERSION)
+
+dnl =========================================================
+dnl = Lightning extension
+dnl =========================================================
+MOZ_ARG_ENABLE_BOOL(calendar,
+[  --enable-calendar      Enable building of the Lightning calendar extension],
+    MOZ_CALENDAR=1,
+    MOZ_CALENDAR= )
+AC_SUBST(MOZ_CALENDAR)
+
+MOZ_ARG_ENABLE_BOOL(incomplete-external-linkage,
+[  --enable-incomplete-external-linkage Changes some comm-central code to be built with external linkage. Developer only option, incomplete broken builds will result - There are already existing bugs for this. ],
+    MOZ_INCOMPLETE_EXTERNAL_LINKAGE=1,
+    MOZ_INCOMPLETE_EXTERNAL_LINKAGE= )

@@ -1,0 +1,10 @@
+hyperbola-packages
+internet-archive
+searx-tor
+searx
+invidious
+invidious-tor
+gnusocial
+wikipedia-en
+wikimedia-commons
+yacy
