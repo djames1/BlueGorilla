@@ -1,5 +1,5 @@
 # BlueGorilla
-Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=en:project:iceape-uxp).
+Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=en:project:iceape-uxp). I forked this partially because to learn how a classic Mozilla application works and partially because I feel that Iceape-UXP does not get the love from the Hyperbola developers it deserves. For example, at the time of this writing the last commit to Iceape-UXP was 3 months ago. The last commit to Iceweasel-UXP was about a month ago.
 
 ## Differences from Iceape-UXP
 * TODO: All build dependencies in one repository. No need to Download Icedove-UXP source code then put Iceape-UXP inside of that.
@@ -14,4 +14,4 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 There will be .patch files that should be applied before building in the patches directory
 
 ## Build Instructions
-TODO. See [here](https://wiki.hyperbola.info/doku.php?id=en:project:iceape-uxp) for starter instructions.
+TODO. See [here](https://wiki.hyperbola.info/doku.php?id=en:project:iceape-uxp) for starter instructions. Compiler version support is essentially the same as [Pale Moon's build instructions](https://developer.palemoon.org/build/linux/). I do not support Windows or Mac builds. You're on your own with those as I don't use either OS.
