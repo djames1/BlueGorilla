@@ -1,3 +1,6 @@
 [submodule "mozilla"]
 	path = mozilla
 	url = https://github.com/MoonchildProductions/UXP.git
+[submodule "browser"]
+	path = browser
+	url = https://git.hyperbola.info:50100/software/iceweasel-uxp.git

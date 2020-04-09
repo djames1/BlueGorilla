@@ -1,0 +1,51 @@
+# Tell UXP to build the application in the "suite" folder
+ac_add_options --enable-application=suite
+
+# Debug settings
+# ac_add_options --disable-optimize
+# ac_add_options --enable-debug-symbols
+# ac_add_options --enable-debug
+
+ac_add_options --enable-optimize="-O2"
+
+ac_add_options --with-pthreads
+
+# Specify number of CPU Cores
+mk_add_options MOZ_MAKE_FLAGS="-j4"
+
+# Disable bloatware that might be in the application
+ac_add_options --disable-accessibility
+ac_add_options --disable-cpp-rtti
+ac_add_options --disable-crashreporter
+ac_add_options --disable-dbus
+ac_add_options --disable-necko-wifi
+ac_add_options --disable-negotiateauth
+ac_add_options --disable-tests
+ac_add_options --disable-updater
+ac_add_options --disable-webrtc
+ac_add_options --disable-safe-browsing
+ac_add_options --disable-url-classifier
+
+# Branding
+ac_add_options --disable-official-branding
+ac_add_options --with-branding=suite/branding/iceape
+
+# Enable some useful features
+
+# Sound
+ac_add_options --enable-alsa
+ac_add_options --disable-pulseaudio
+
+# Lightning Calendar
+ac_add_options --enable-calendar
+
+# System Libs confirmed working:
+ac_add_options --with-system-jpeg
+ac_add_options --with-system-zlib
+ac_add_options --with-system-bz2
+ac_add_options --enable-system-hunspell
+ac_add_options --enable-system-ffi
+ac_add_options --enable-system-pixman
+#ac_add_options --enable-system-sqlite # keep disabled for stability
+#ac_add_options --with-system-nspr # keep disabled for stability
+#ac_add_options --with-system-nss # keep disabled for stability

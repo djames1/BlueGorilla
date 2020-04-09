@@ -2,7 +2,7 @@
 Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=en:project:iceape-uxp). I forked this to learn how a classic Mozilla application works and also because I feel that Iceape-UXP does not get the love from the Hyperbola developers it deserves. For example, at the time of this writing the last commit to Iceape-UXP was 3 months ago. The last commit to Iceweasel-UXP was about a month ago.
 
 ## Differences from Iceape-UXP
-* TODO: All build dependencies in one repository. No need to Download Icedove-UXP source code then put Iceape-UXP inside of that.
+* DONE: All build dependencies in one repository. No need to Download Icedove-UXP source code then put Iceape-UXP inside of that.
 * TODO: Patches ported from [Binary Outcast's browser and email applications](https://github.com/binaryoutcast/binoc-central).
 * TODO: Compatibility with both SeaMonkey and Iceape-UXP GUIDs for addons.
 * TODO: New branding.
