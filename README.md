@@ -7,7 +7,8 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * ONGOING: Patches ported from [Binary Outcast's browser and email applications](https://github.com/binaryoutcast/binoc-central).
 * TODO: Compatibility with both SeaMonkey and Iceape-UXP GUIDs for addons.
 * TODO: New settings directory
-* TODO: New branding.
+* DONE: Replace iceape-uxp branding with new branding.
+* TODO: Replace old SeaMonkey icons with new icons
 * ONGOING: Patches ported from upstream Iceape-UXP as well as [Icedove-UXP](https://wiki.hyperbola.info/doku.php?id=en:project:icedove-uxp).
 * TODO: Fix issues when building Lightning calendar extension. Currently you have to install the .xpi after building, which is not user friendly
 

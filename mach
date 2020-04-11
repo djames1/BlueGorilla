@@ -1,0 +1,4 @@
+#!/bin/sh
+
+MACH_CMD=./mozilla/mach
+$MACH_CMD $@
