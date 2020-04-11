@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  brandFullName         "Iceape-UXP">
-<!ENTITY  brandShortName        "Iceape-UXP">
-<!ENTITY  brandShorterName      "Iceape-UXP">
-<!ENTITY  vendorShortName       "Hyperbola">
+<!ENTITY  brandFullName         "BlueGorilla">
+<!ENTITY  brandShortName        "BlueGorilla">
+<!ENTITY  brandShorterName      "BlueGorilla">
+<!ENTITY  vendorShortName       "djames">
 <!ENTITY  sidebarName           "Sidebar">

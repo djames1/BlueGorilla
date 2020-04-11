@@ -43,9 +43,9 @@ var ice = Cc["@mozilla.org/xre/app-info;1"]
           .getService(Ci.nsIXULAppInfo)
           .QueryInterface(Ci.nsIXULRuntime).name.toLowerCase();
 
-function AboutIce() {}
+function AboutBlue() {}
 
-AboutIce.prototype = {
+AboutBlue.prototype = {
   QueryInterface: XPCOMUtils.generateQI([Ci.nsIAboutModule]),
   classDescription: "about:" + ice,
   classID: Components.ID("{5df05c89-5e9a-41f4-bd6a-700e4aa305fc}"),
@@ -68,4 +68,4 @@ AboutIce.prototype = {
   }
 }
 
-var NSGetModule = XPCOMUtils.generateNSGetModule([AboutIce]);
+var NSGetModule = XPCOMUtils.generateNSGetModule([AboutBlue]);

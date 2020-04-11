@@ -11,20 +11,20 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>modern@themes.mozilla.org</em:id>
-    <em:version>@ICEAPEUXP_VERSION@</em:version>
+    <em:version>@BLUEGORILLA_VERSION@</em:version>
 
     <!-- Target Application this theme can install into,
         with minimum and maximum supported versions. -->
     <em:targetApplication>
       <Description>
         <em:id>{9184b6fe-4a5c-484d-8b4b-efbfccbfb514}</em:id>
-        <em:minVersion>@ICEAPEUXP_VERSION@</em:minVersion>
-        <em:maxVersion>@ICEAPEUXP_VERSION@</em:maxVersion>
+        <em:minVersion>@BLUEGORILLA_VERSION@</em:minVersion>
+        <em:maxVersion>@BLUEGORILLA_VERSION@</em:maxVersion>
       </Description>
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>Iceape-UXP Modern</em:name>
+    <em:name>BlueGorilla Modern</em:name>
     <em:description>A contemporary theme for all components.</em:description>
 
     <!-- EXTENSION AUTHORS!

@@ -14,8 +14,8 @@ AC_SUBST(ICEDOVEUXP_VERSION)
 AC_DEFINE(MOZ_SEPARATE_MANIFEST_FOR_THEME_OVERRIDES)
 
 dnl Get other versions (for the calendar plugin)
-ICEAPEUXP_VERSION=`cat ${_topsrcdir}/../suite/config/version.txt`
-AC_SUBST(ICEAPEUXP_VERSION)
+BLUEGORILLA_VERSION=`cat ${_topsrcdir}/../suite/config/version.txt`
+AC_SUBST(BLUEGORILLA_VERSION)
 
 dnl =========================================================
 dnl = Lightning extension

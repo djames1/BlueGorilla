@@ -597,7 +597,7 @@
 @RESPATH@/chrome/icons/default/places.png
 @RESPATH@/chrome/icons/default/places16.png
 @RESPATH@/chrome/icons/default/places48.png
-@RESPATH@/chrome/icons/default/iceape.png
+@RESPATH@/chrome/icons/default/bluegorilla.png
 #ifdef MOZ_UPDATER
 @RESPATH@/icons/updater.png
 #endif

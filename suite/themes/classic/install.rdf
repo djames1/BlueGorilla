@@ -11,7 +11,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{972ce4c6-7e08-4474-a285-3208198ce6fd}</em:id>
-    <em:version>@ICEAPEUXP_VERSION@</em:version>
+    <em:version>@BLUEGORILLA_VERSION@</em:version>
     <em:type>4</em:type>
 
     <!-- Target Application this theme can install into,
@@ -19,13 +19,13 @@
     <em:targetApplication>
       <Description>
         <em:id>{9184b6fe-4a5c-484d-8b4b-efbfccbfb514}</em:id>
-        <em:minVersion>@ICEAPEUXP_VERSION@</em:minVersion>
-        <em:maxVersion>@ICEAPEUXP_VERSION@</em:maxVersion>
+        <em:minVersion>@BLUEGORILLA_VERSION@</em:minVersion>
+        <em:maxVersion>@BLUEGORILLA_VERSION@</em:maxVersion>
       </Description>
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>Iceape-UXP Default Theme</em:name>
+    <em:name>BlueGorilla Default Theme</em:name>
     <em:description>This theme uses styles and colors from the system to fit in with other applications.</em:description>
 
     <!-- EXTENSION AUTHORS!

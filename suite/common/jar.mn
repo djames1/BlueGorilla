@@ -270,5 +270,5 @@ comm.jar:
    content/communicator/sync/syncUtils.js                           (sync/syncUtils.js)
    content/communicator/sync/syncUI.js                              (sync/syncUI.js)
 
-# Iceape-UXP specific branding override
+# BlueGorilla specific branding override
 % override chrome://global/skin/about.css chrome://communicator/content/about.css

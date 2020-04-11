@@ -28,7 +28,7 @@ ac_add_options --disable-url-classifier
 
 # Branding
 ac_add_options --disable-official-branding
-ac_add_options --with-branding=suite/branding/iceape
+ac_add_options --with-branding=suite/branding/bluegorilla
 
 # Enable some useful features
 
