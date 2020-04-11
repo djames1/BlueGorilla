@@ -1,10 +1,7 @@
-hyperbola-packages
+duckduckgo
+ecosia
+ekoru
 internet-archive
-searx-tor
-searx
 invidious
-invidious-tor
-gnusocial
+searx
 wikipedia-en
-wikimedia-commons
-yacy
