@@ -5,7 +5,8 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 ### ONGOING means this is a continuous task that is not a one time change
 * DONE: All build dependencies in one repository. No need to Download Icedove-UXP source code then put Iceape-UXP inside of that.
 * ONGOING: Patches ported from [Binary Outcast's browser and email applications](https://github.com/binaryoutcast/binoc-central).
-* TODO: Compatibility with both SeaMonkey and Iceape-UXP GUIDs for addons.
+* UNDECIDED: Compatibility with both SeaMonkey and Iceape-UXP GUIDs for addons.
+* UNDECIDED: New GUID altogether
 * DONE: New settings directory: ~/.djames/bluegorilla
 * DONE: Replace iceape-uxp branding with new branding.
 * TODO: Replace old SeaMonkey icons with new icons
