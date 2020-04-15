@@ -13,8 +13,11 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * ONGOING: Patches ported from upstream Iceape-UXP as well as [Icedove-UXP](https://wiki.hyperbola.info/doku.php?id=en:project:icedove-uxp).
 * TODO: Fix issues when building Lightning calendar extension. Currently you have to install the .xpi after building, which is not user friendly
 
-## Patches to UXP
-TODO: There will be .patch files that should be applied before building in the patches directory
-
 ## Build Instructions
-TODO. See [here](https://wiki.hyperbola.info/doku.php?id=en:project:iceape-uxp) for starter instructions. Compiler version support is essentially the same as [Pale Moon's build instructions](https://developer.palemoon.org/build/linux/). I do not support Windows or Mac builds.
+* Copy mozconfig.sample to .mozconfig
+* Edit .mozconfig as needed
+* ./mach build
+* You can then run the application by running ./mach run, or package it by running ./mach package
+
+## Gentoo Ebuild
+TODO
