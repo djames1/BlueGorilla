@@ -1083,4 +1083,4 @@ pref("security.sandbox.content.tempDirSuffix", "");
 #endif
 
 // Url shown when you type moz://a
-pref("toolkit.mozprotocol.url", "http://www.seamonkey-project.org/");
+pref("toolkit.mozprotocol.url", "https://github.com/djames1/bluegorilla");

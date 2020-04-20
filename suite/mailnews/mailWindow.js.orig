@@ -241,7 +241,7 @@ function messagePaneOnResize(event)
   var messagepane = getMessageBrowser();
   var doc = messagepane.contentDocument;
   var imgs = doc.images;
-  for (var img of imgs)
+  for each (var img in imgs)
   {
     if (img.className == "moz-attached-image")
     {

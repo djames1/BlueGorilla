@@ -697,7 +697,7 @@ function SetTagHeader()
                    .getService(Components.interfaces.nsIMsgTagService);
   var tagArray = tagService.getAllTags({});
   var tagKeys = {};
-  for (var tagInfo of tagArray)
+  for each (var tagInfo in tagArray)
     if (tagInfo.tag)
       tagKeys[tagInfo.key] = true;
 
