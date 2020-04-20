@@ -4,13 +4,14 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 ## Differences from Iceape-UXP
 ### ONGOING means this is a continuous task that is not a one time change
 * DONE: All build dependencies in one repository. No need to Download Icedove-UXP source code then put Iceape-UXP inside of that.
-* ONGOING: Patches ported from [Binary Outcast's browser and email applications](https://github.com/binaryoutcast/binoc-central).
-* UNDECIDED: Compatibility with both SeaMonkey and Iceape-UXP GUIDs for addons.
-* UNDECIDED: New GUID altogether
+* ONGOING: Patches ported from [Borealis Navigator](https://github.com/binaryoutcast/binoc-central), which is based on the browser component of SeaMonkey.
 * DONE: New settings directory: ~/.djames/bluegorilla
 * DONE: Replace iceape-uxp branding with new branding.
+* TODO: Replace iceowl-uxp branding with new branding
 * TODO: Replace old SeaMonkey icons with new icons
-* ONGOING: Patches ported from upstream Iceape-UXP as well as [Icedove-UXP](https://wiki.hyperbola.info/doku.php?id=en:project:icedove-uxp).
+* TODO: Remove modern theme and allow it to be installed as a separate addon
+* ONGOING: Patches ported from Iceape-UXP as well as [Icedove-UXP](https://wiki.hyperbola.info/doku.php?id=en:project:icedove-uxp).
+* ONGOING: Patches ported from SeaMonkey
 * TODO: Fix issues when building Lightning calendar extension. Currently you have to install the .xpi after building, which is not user friendly
 
 ## Build Instructions
