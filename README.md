@@ -6,6 +6,7 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * DONE: All build dependencies in one repository. No need to Download Icedove-UXP source code then put Iceape-UXP inside of that.
 * DONE: New settings directory: ~/.djames/bluegorilla
 * DONE: Replace iceape-uxp branding with new branding.
+* DONE: Apply patches from SeaMonkey 2.49.5. Iceape-UXP was a fork of SeaMonkey 2.49.4.
 ### ONGOING (Not a one time change/constantly being worked on)
 * ONGOING: Patches ported from [Borealis Navigator](https://github.com/binaryoutcast/binoc-central), which is based on the browser component of SeaMonkey.
 * ONGOING: Patches ported from Iceape-UXP as well as [Icedove-UXP](https://wiki.hyperbola.info/doku.php?id=en:project:icedove-uxp).
