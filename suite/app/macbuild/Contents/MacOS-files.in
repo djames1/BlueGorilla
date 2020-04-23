@@ -1,7 +1,6 @@
 /*.app/***
-/*.dylib
 /certutil
-/seamonkey-bin
+/bluegorilla-bin
 /pk12util
 /ssltunnel
 /xpcshell
