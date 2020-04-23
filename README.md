@@ -10,7 +10,7 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * ONGOING: Patches ported from [Borealis Navigator](https://github.com/binaryoutcast/binoc-central), which is based on the browser component of SeaMonkey.
 * ONGOING: Patches ported from Iceape-UXP as well as [Icedove-UXP](https://wiki.hyperbola.info/doku.php?id=en:project:icedove-uxp).
 * ONGOING: Patches ported from SeaMonkey
-## TODO
+### TODO
 * TODO: Replace iceowl-uxp branding with new branding/investigate using a different lightning version/addon
 * TODO: Replace remaining SeaMonkey icons with new icons if the license is being violated
 * TODO: Fix issues when building Lightning calendar extension. Currently you have to install the .xpi after building, which is not user friendly
