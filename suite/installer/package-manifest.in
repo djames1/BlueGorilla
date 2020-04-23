@@ -206,7 +206,6 @@
 @RESPATH@/components/dom_permissionsettings.xpt
 @RESPATH@/components/dom_power.xpt
 @RESPATH@/components/dom_push.xpt
-@RESPATH@/components/dom_presentation.xpt
 @RESPATH@/components/dom_quota.xpt
 @RESPATH@/components/dom_range.xpt
 @RESPATH@/components/dom_security.xpt
@@ -413,7 +412,6 @@
 @RESPATH@/components/nsAsyncShutdown.js
 @RESPATH@/components/nsBlocklistService.js
 @RESPATH@/components/blocklist.manifest
-@RESPATH@/components/nsBlocklistServiceContent.js
 @RESPATH@/components/nsBrowserContentHandler.js
 @RESPATH@/components/nsComposerCmdLineHandler.js
 @RESPATH@/components/nsComposerCmdLineHandler.manifest
@@ -438,10 +436,6 @@
 @RESPATH@/components/nsHandlerService.manifest
 @RESPATH@/components/nsHelperAppDlg.js
 @RESPATH@/components/nsHelperAppDlg.manifest
-@RESPATH@/components/PresentationControlService.js
-@RESPATH@/components/PresentationDeviceInfoManager.manifest
-@RESPATH@/components/PresentationDeviceInfoManager.js
-@RESPATH@/components/BuiltinProviders.manifest
 @RESPATH@/components/nsINIProcessor.js
 @RESPATH@/components/nsINIProcessor.manifest
 @RESPATH@/components/nsInputListAutoComplete.js
@@ -887,24 +881,6 @@ bin/libfreebl_32int64_3.so
 @BINPATH@/clang_rt.asan_dynamic-i386.dll
 #endif
 
-[inspector]
-#ifdef MOZ_OMNIJAR
-@RESPATH@/distribution/extensions/inspector@mozilla.org.xpi
-#else
-@RESPATH@/extensions/inspector@mozilla.org/install.rdf
-@RESPATH@/extensions/inspector@mozilla.org/chrome.manifest
-@RESPATH@/extensions/inspector@mozilla.org/chrome/inspector@JAREXT@
-#ifdef MOZ_GTK
-@RESPATH@/extensions/inspector@mozilla.org/platform/Linux/chrome/icons/default/winInspectorMain16.xpm
-@RESPATH@/extensions/inspector@mozilla.org/platform/Linux/chrome/icons/default/winInspectorMain.xpm
-#elifdef XP_WIN32
-@RESPATH@/extensions/inspector@mozilla.org/platform/WINNT/chrome/icons/default/winInspectorMain.ico
-#endif
-@RESPATH@/extensions/inspector@mozilla.org/components/components.list
-@RESPATH@/extensions/inspector@mozilla.org/components/inspector-cmdline.js
-@RESPATH@/extensions/inspector@mozilla.org/defaults/preferences/inspector.js
-#endif
-
 [debugqa]
 #ifdef MOZ_PACKAGE_DEBUGQA
 #ifdef MOZ_OMNIJAR
@@ -918,5 +894,5 @@ bin/libfreebl_32int64_3.so
 
 #ifdef MOZ_CALENDAR
 [calendar]
-@RESPATH@/extensions/{ee86d35c-86ba-44f3-bd9d-854163f8f07a}/
+@RESPATH@/extensions/{ee86d35c-86ba-44f3-bd9d-854163f8f07a}.xpi
 #endif
