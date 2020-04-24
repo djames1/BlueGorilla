@@ -1,5 +1,5 @@
 # BlueGorilla
-Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=en:project:iceape-uxp). I forked this to learn how a classic Mozilla application works and also because I feel that Iceape-UXP does not get the love from the Hyperbola developers it deserves. For example, at the time of this writing the last commit to Iceape-UXP was 3 months ago. The last commit to Iceweasel-UXP was about a month ago.
+Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=en:project:iceape-uxp). I forked this to learn how a classic Mozilla application works and also because I feel that Iceape-UXP does not get the love from the Hyperbola developers it deserves.
 
 ## Differences from Iceape-UXP
 ### DONE
@@ -14,11 +14,16 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * ONGOING: Patches ported from Iceape-UXP as well as [Icedove-UXP](https://wiki.hyperbola.info/doku.php?id=en:project:icedove-uxp).
 * ONGOING: Patches ported from SeaMonkey
 ### TODO
-* TODO: Replace iceowl-uxp branding with new branding/investigate using a different lightning version/addon
-* TODO: Replace remaining SeaMonkey icons with new icons if the license is being violated
-* TODO: Fix issues when building Lightning calendar extension. Currently you have to install the .xpi after building, which is not user friendly
+* TODO: Fix issues when building Iceowl/Lightning calendar extension. Currently you have to install the .xpi after building, which is not user friendly
+* TODO: See if we can make all of the dependencies in the suite directory and remove the browser and mail directories.
+* TODO: Include vertical tab bar addon
+* TODO: Include fork of last XUL based enigmail addon
+### UNDECIDED
+* UNDECIDED: Accept SeaMonkey GUID for addons
+* UNDECIDED: Include fork of XPFE-classic (Netscape theme) for SeaMonkey
 
 ## Build Instructions
+### Mac and Windows builds not supported. Please let me know if they work.
 * Copy mozconfig.sample to .mozconfig
 * Edit .mozconfig as needed
 * ./mach build
