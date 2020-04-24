@@ -33,4 +33,4 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * You can then run the application by running ./mach run, or package it by running ./mach package
 
 ## Gentoo Ebuild
-TODO
+There is a Gentoo live ebuild located in my [UXP Overlay](https://github.com/djames1/uxp-overlay).
