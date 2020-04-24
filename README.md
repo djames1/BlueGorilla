@@ -18,6 +18,8 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * TODO: See if we can make all of the dependencies in the suite directory and remove the browser and mail directories.
 * TODO: Include vertical tab bar addon
 * TODO: Include fork of last XUL based enigmail addon
+* TODO: Different versioning scheme
+* TODO: New GUID
 ### UNDECIDED
 * UNDECIDED: Accept SeaMonkey GUID for addons
 * UNDECIDED: Include fork of XPFE-classic (Netscape theme) for SeaMonkey
