@@ -20,6 +20,7 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * TODO: Include fork of last XUL based enigmail addon
 * TODO: Different versioning scheme
 * TODO: New GUID
+* TODO: Put UXP in the platform directory instead of Mozilla directory
 ### UNDECIDED
 * UNDECIDED: Accept SeaMonkey GUID for addons
 * UNDECIDED: Include fork of XPFE-classic (Netscape theme) for SeaMonkey
