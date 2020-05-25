@@ -31,9 +31,10 @@ MOZ_DOMINSPECTOR=
 MOZ_SECURITY_SQLSTORE=1
 NSS_DISABLE_DBM=1
 
-# For BlueGorilla we want to use 52.9.YYYYMMDD as MOZ_APP_VERSION in release
-# builds.
-MOZ_APP_VERSION=52.9.`date --utc '+%Y%m%d'`
+# We want to use 52.9.YYYYMMDD as MOZ_APP_VERSION in release builds
+#MOZ_APP_VERSION=52.9.`date --utc '+%Y%m%d'`
+#For builds from the master branch we use 52.9.9999
+MOZ_APP_VERSION=52.9.9999
 BLUEGORILLA_VERSION=$MOZ_APP_VERSION
 
 MOZ_UA_BUILDID=20100101
