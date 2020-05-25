@@ -4,7 +4,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 MOZ_APP_BASENAME=BlueGorilla
-MOZ_APP_VENDOR=djames
+MOZ_APP_VENDOR=bluegorilla
 MOZ_APP_NAME=bluegorilla
 MOZ_APP_DISPLAYNAME=BlueGorilla
 MOZ_COMPOSER=1

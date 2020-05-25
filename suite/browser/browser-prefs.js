@@ -47,7 +47,6 @@ pref("general.autoScroll", true);
 pref("general.useragent.compatMode.firefox", false);
 
 pref("general.useragent.complexOverride.moodle", false); // bug 797703; bug 815801
-pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.9) Gecko/20100101 Goanna/4.5 PaleMoon/28.9.1"); // Useragent Override for compatibility reasons
 pref("calendar.useragent.disabled", true); // We don't want Iceowl-UXP / Lightning dumping it's string while using Navigator
 
 // 0 = blank, 1 = home (browser.startup.homepage), 2 = last visited page, 3 = resume previous browser session
