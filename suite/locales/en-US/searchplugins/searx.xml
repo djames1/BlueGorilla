@@ -6,5 +6,5 @@
   <InputEncoding>UTF-8</InputEncoding>
   <LongName>SearX Metasearch</LongName>
   
-    <Url type="text/html" method="get" template="https://searx.neocities.org/?q={searchterms}"/>
+    <Url type="text/html" method="get" template="https://searx.neocities.org/?q={searchTerms}"/>
 </OpenSearchDescription>
