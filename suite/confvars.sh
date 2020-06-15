@@ -3,6 +3,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Version is 52.9.`number of days since Seamonkey 2.49.5 released`
+DAYS_SM=$(( (`date -d "today" +%s` - `date -d "4 September 2019" +%s`) / (24*3600) ))`
+
 MOZ_APP_BASENAME=BlueGorilla
 MOZ_APP_VENDOR=bluegorilla
 MOZ_APP_NAME=bluegorilla
@@ -31,10 +34,8 @@ MOZ_DOMINSPECTOR=
 MOZ_SECURITY_SQLSTORE=1
 NSS_DISABLE_DBM=1
 
-# We want to use 52.9.YYYYMMDD as MOZ_APP_VERSION in release builds
-#MOZ_APP_VERSION=52.9.`date --utc '+%Y%m%d'`
-#For builds from the master branch we use 52.9.9999
-MOZ_APP_VERSION=52.9.9999
+#We use 52.9.days since Seamonkey 2.49.5 released as version number
+MOZ_APP_VERSION=52.9.$DAYS_SM
 BLUEGORILLA_VERSION=$MOZ_APP_VERSION
 
 MOZ_UA_BUILDID=20100101

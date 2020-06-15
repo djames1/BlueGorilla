@@ -10,6 +10,7 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * DONE: Remove Iceape-UXP user agent override
 * DONE: Replace bookmarks
 * DONE: New search engines, some ported from Pale Moon, some custom
+* DONE: Change version to 52.9.`number of days since Seamonkey 2.49.5 released`
 ### ONGOING (Not a one time change/constantly being worked on)
 * ONGOING: Patches ported from [Borealis Navigator](https://github.com/binaryoutcast/binoc-central), which is based on the browser component of SeaMonkey.
 * ONGOING: Patches ported from Iceape-UXP as well as [Icedove-UXP](https://wiki.hyperbola.info/doku.php?id=en:project:icedove-uxp).
@@ -19,7 +20,6 @@ Fork of the [Iceape-UXP Internet Suite](https://wiki.hyperbola.info/doku.php?id=
 * TODO: See if we can make all of the dependencies in the suite directory and remove the browser and mail directories.
 * TODO: Include vertical tab bar addon
 * TODO: Include fork of last XUL based enigmail addon
-* TODO: Different versioning scheme
 * TODO: New GUID
 * TODO: Put UXP in the platform directory instead of Mozilla directory
 ### UNDECIDED
