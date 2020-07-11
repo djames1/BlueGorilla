@@ -12,7 +12,7 @@ AC_SUBST(BLUEGORILLA_VERSION)
 AC_DEFINE(MOZ_SEPARATE_MANIFEST_FOR_THEME_OVERRIDES)
 
 dnl Get other versions (for the calendar plugin)
-ICEDOVEUXP_VERSION=(BLUEGORILLA_VERSION)
+AC_DEFINE(ICEDOVEUXP_VERSION)
 AC_SUBST(ICEDOVEUXP_VERSION)
 
 dnl =========================================================
