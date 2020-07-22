@@ -771,35 +771,6 @@ SuiteGlue.prototype = {
   },
 
   /*
-   * _shouldShowRights - Determines if the user should be shown the
-   * about:rights notification. The notification should *not* be shown if
-   * we've already shown the current version, or if the override pref says to
-   * never show it. The notification *should* be shown if it's never been seen
-   * before, if a newer version is available, or if the override pref says to
-   * always show it.
-   */
-  _shouldShowRights: function () {
-    // Look for an unconditional override pref. If set, do what it says.
-    // (true --> never show, false --> always show)
-    try {
-      return !Services.prefs.getBoolPref("browser.rights.override");
-    } catch (e) { }
-    // Ditto, for the legacy EULA pref (tinderbox testing profile sets this).
-    try {
-      return !Services.prefs.getBoolPref("browser.EULA.override");
-    } catch (e) { }
-
-    // Look to see if the user has seen the current version or not.
-    var currentVersion = Services.prefs.getIntPref("browser.rights.version");
-    try {
-      return !Services.prefs.getBoolPref("browser.rights." + currentVersion + ".shown");
-    } catch (e) { }
-
-    // We haven't shown the notification before, so do so now.
-    return true;
-  },
-
-  /*
    * _shouldShowUpdateWarning - Determines if the user should be warned about
    * having updates off and an old build that likely should be updated.
    */

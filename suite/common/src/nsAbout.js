@@ -24,8 +24,6 @@ About.prototype = {
   lifeURI: "chrome://communicator/content/aboutLife.xhtml",
   privatebrowsingFlags: SCRIPT,
   privatebrowsingURI: "chrome://communicator/content/aboutPrivateBrowsing.xul",
-  rightsFlags: SCRIPT | UNTRUSTED,
-  rightsURI: "chrome://branding/content/aboutRights.xhtml",
   sessionrestoreFlags: SCRIPT | HIDE,
   sessionrestoreURI: "chrome://communicator/content/aboutSessionRestore.xhtml",
   synctabsFlags: SCRIPT,

@@ -241,7 +241,7 @@ pref("browser.tabs.opentabfor.middleclick", true);
 pref("browser.tabs.opentabfor.urlbar", true);
 pref("browser.tabs.tooltippreview.enable", true);
 pref("browser.tabs.tooltippreview.width", 300);
-pref("browser.tabs.autoHide", true);
+pref("browser.tabs.autoHide", false);
 pref("browser.tabs.forceHide", false);
 pref("browser.tabs.closeWindowWithLastTab", true);
 pref("browser.tabs.warnOnClose", true);
@@ -826,13 +826,8 @@ pref("browser.geolocation.warning.infoURL", "http://www.seamonkey-project.org/do
 pref("browser.rights.version", 1);
 pref("browser.rights.1.shown", false);
 
-#ifdef DEBUG
-// Don't show the about:rights notification in debug builds.
+// Don't show about:rights
 pref("browser.rights.override", true);
-#elifndef OFFICIAL_BUILD
-// Don't show the about:rights notification in non-official builds.
-pref("browser.rights.override", true);
-#endif
 
 // The sync engines to use.
 pref("services.sync.registerEngines", "Bookmarks,Form,History,Password,Prefs,Tab,Addons");
