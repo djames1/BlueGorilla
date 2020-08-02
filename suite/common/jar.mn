@@ -45,7 +45,7 @@ comm.jar:
 % overlay chrome://messenger-smime/content/msgReadSecurityInfo.xul chrome://communicator/content/helpMessengerOverlay.xul
 % content communicator-platform %content/communicator-platform/ platform
 % content communicator-region %content/communicator-region/
-   content/communicator/about.css                                   (../themes/modern/global/about.css)
+   content/communicator/about.css                                   (../themes/classic/global/about.css)
    content/communicator/about.js
    content/communicator/about.xhtml
    content/communicator/aboutLife.xhtml

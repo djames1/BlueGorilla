@@ -18,7 +18,6 @@ DIRS += [
     'mailnews',
     'modules',
     'themes/classic',
-    'themes/modern',
     'profile',
     'security',
     'shell/public',

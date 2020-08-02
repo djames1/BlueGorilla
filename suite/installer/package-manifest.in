@@ -540,17 +540,6 @@
 @RESPATH@/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/preview.png
 #endif
 
-; modern theme
-#ifdef MOZ_OMNIJAR
-@RESPATH@/extensions/modern@themes.mozilla.org.xpi
-#else
-@RESPATH@/extensions/modern@themes.mozilla.org/chrome/modern@JAREXT@
-@RESPATH@/extensions/modern@themes.mozilla.org/chrome.manifest
-@RESPATH@/extensions/modern@themes.mozilla.org/icon.png
-@RESPATH@/extensions/modern@themes.mozilla.org/install.rdf
-@RESPATH@/extensions/modern@themes.mozilla.org/preview.png
-#endif
-
 ; shell icons
 #ifdef MOZ_GTK
 @RESPATH@/chrome/icons/default/bookmarkproperties.png

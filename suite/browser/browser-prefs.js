@@ -619,9 +619,6 @@ pref("extensions.dss.switchPending", false);    // Non-dynamic switch pending af
 pref("extensions.{972ce4c6-7e08-4474-a285-3208198ce6fd}.name", "chrome://navigator/locale/navigator.properties");
 pref("extensions.{972ce4c6-7e08-4474-a285-3208198ce6fd}.description", "chrome://navigator/locale/navigator.properties");
 
-pref("extensions.modern@themes.mozilla.org.name", "chrome://navigator/locale/navigator.properties");
-pref("extensions.modern@themes.mozilla.org.description", "chrome://navigator/locale/navigator.properties");
-
 pref("xpinstall.enabled", true);
 pref("xpinstall.signatures.required", false);
 // Built-in default permissions.
