@@ -333,6 +333,9 @@ pref("toolkit.zoomManager.zoomValues", "0.2,0.3,0.5,0.67,0.8,0.9,1,1.1,1.2,1.33,
 
 pref("javascript.options.showInConsole",    true);
 
+// See UXP Issue #1624
+pref("javascript.options.ion.inlining", true);
+
 pref("suite.manager.addons.openAsDialog", false);
 pref("suite.manager.dataman.openAsDialog", true);
 
