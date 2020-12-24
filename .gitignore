@@ -1,2 +1,4 @@
 .mozconfig
 obj-powerpc64le-unknown-linux-gnu
+obj-x86_64-pc-linux-gnu
+build/mach_bootstrap.pyc
