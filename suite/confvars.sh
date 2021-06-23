@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Version is 52.9.`number of days since Seamonkey 2.49.5 released`
+# Version is 2.49.`number of days since Seamonkey 2.49.5 released`
 DAYS_SM_VERSION=`$PYTHON ${_topsrcdir}/../build/version.py --version ${_topsrcdir}/../suite/config/version.txt`
 
 MOZ_APP_BASENAME=BlueGorilla
@@ -41,7 +41,7 @@ ICEDOVEUXP_VERSION=$BLUEGORILLA_VERSION
 
 MOZ_UA_BUILDID=20100101
 
-MOZ_APP_ID={9184b6fe-4a5c-484d-8b4b-efbfccbfb514}
+MOZ_APP_ID={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
 MOZ_PROFILE_MIGRATOR=1
 MOZ_APP_STATIC_INI=1
 MOZ_SEPARATE_MANIFEST_FOR_THEME_OVERRIDES=1
